@@ -1,0 +1,32 @@
+body {
+  font-family: 'Jua', sans-serif;
+  background-image: url(./images/20168625_rm450-61-hdwallpaper.jpg);
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding-top: 100px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.merry {
+  width: 750px;
+  margin: -30px;
+}
+audio {
+  opacity: 0.1;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+  .merry {
+    width: 70%;
+    margin: -30px;
+  }
+}
